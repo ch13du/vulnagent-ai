@@ -1,0 +1,3 @@
+Host,Plugin ID,Name,Risk,CVE,Description,Solution
+lab-web-01,10001,Example outdated web service,High,CVE-2024-0001,Synthetic finding for testing,Review vendor guidance and patch
+lab-db-01,10002,Example weak configuration,Medium,,Synthetic configuration finding,Review configuration baseline
