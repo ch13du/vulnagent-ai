@@ -50,7 +50,17 @@ Each finding includes a priority score and breakdown, CVE evidence when availabl
 | Recommended actions | Steps for a human analyst to review |
 | Validation steps | How to verify the finding and approved remediation |
 
-**Screenshots:** Add your own captures to `docs/screenshots/` after running the public sample data. See [screenshot guide](docs/SCREENSHOTS.md). Do not include real hostnames, credentials or private scan results.
+### Dashboard preview
+
+![VulnAgent AI dashboard showing sample findings and LangGraph stages](docs/screenshots/dashboard-overview.png)
+
+### Structured remediation report
+
+![Structured vulnerability assessment with uncertainty and remediation steps](docs/screenshots/remediation-report.png)
+
+*Screenshots are from a local v1.2 run with `samples/public_cve_lab.csv`, using publicly documented CVEs on **simulated assets**. These are not evidence of vulnerabilities on real hosts. Model output and threat intelligence may vary between runs.*
+
+See the [screenshot guide](docs/SCREENSHOTS.md) for how to replace these captures safely.
 
 ## Quickstart (Windows PowerShell)
 
